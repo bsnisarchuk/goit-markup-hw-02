@@ -1,5 +1,18 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-slate-color: #434455;
+  --primary-white-color: #ffffff;
+  --primary-navy-blue-color: #2e2f42;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
 }
 
 a {
@@ -13,12 +26,15 @@ a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 ul {
   list-style-type: none;
 }
+
+/** --------------HEADER---------- */
 
 .header-logo {
   font-family: "Raleway";
@@ -28,20 +44,22 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-.header-menu-link {
+.header-menu-link-item {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5; /* 24/16 */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-/** --------------HEADER---------- */
-
-.header-contacts-links {
+.header-contacts-item-link {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -49,11 +67,11 @@ ul {
   color: #434455;
 }
 
-.header-contacts-links:hover {
+.header-contacts-item-link:hover {
   color: #fd9222;
 }
 
-.header-contacts-links:focus {
+.header-contacts-item-link:focus {
   color: #fd9222;
 }
 
@@ -87,18 +105,6 @@ ul {
 
 /** ---------BENEFITS--------- */
 
-.benefits {
-}
-
-.benefits-title {
-}
-
-.benefits-list {
-}
-
-.benefits-item {
-}
-
 .benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -116,8 +122,6 @@ ul {
 }
 
 /** --------SKILL---------- */
-.skill {
-}
 
 .skill-title {
   font-weight: 700;
@@ -128,16 +132,7 @@ ul {
   color: #2e2f42;
 }
 
-.skill-list {
-}
-
-.skill-item {
-}
-
 /** --------TEAM-------- */
-
-.team {
-}
 
 .team-title {
   font-weight: 700;
@@ -146,12 +141,6 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.team-list {
-}
-
-.team-item {
 }
 
 .team-subtitle {
@@ -170,65 +159,49 @@ ul {
   color: #434455;
 }
 
-/** ------SECOND-PAGE------- */
-
 /** ------------SERVICES----------- */
 
-.sevices-btn-all {
+.portfolio-btn-all {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
-.sevices-web-site-btn {
+.portfolio-btn-all:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.portfolio-btn-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.prospects-img link {
+  list-style: none;
+}
+
+.portfolio-btn {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
 
-.services-app-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-}
+/** ------------PROSPECTS--------- */
 
-.services-design-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-}
-
-.services-marketing-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-}
-
-/** ------------BANKING--------- */
-
-.banking-subtitle {
+.prospects-title {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -236,7 +209,20 @@ ul {
   color: #2e2f42;
 }
 
+.prospects-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/** --------FOOTER------- */
+
 .footer {
+  background-color: #2e2f42;
 }
 
 .footer-logo span {
@@ -246,7 +232,8 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-logo {
@@ -257,7 +244,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .footer-text {
