@@ -15,12 +15,16 @@ body {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
 
 .header-logo span {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -37,7 +41,7 @@ ul {
 /** --------------HEADER---------- */
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -47,7 +51,7 @@ ul {
   color: #4d5ae5;
 }
 
-.header-menu-link-item {
+.header-menu-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -55,6 +59,22 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-contacts {
+  font-style: normal;
+}
+
+.header-contacts-item {
+  list-style: none;
 }
 
 .header-contacts-item-link {
@@ -68,39 +88,46 @@ ul {
 }
 
 .header-contacts-item-link:hover {
-  color: #fd9222;
+  color: #404bbf;
 }
 
 .header-contacts-item-link:focus {
-  color: #fd9222;
+  color: #404bbf;
 }
 
 /** ---------------HERO---------- */
 
 .hero {
-  background-color: rgb(196, 9, 9);
+  background-color: #2e2f42;
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
-  color: #fd9222;
+  background-color: #404bbf;
+}
+
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /** ---------BENEFITS--------- */
@@ -127,6 +154,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -134,10 +162,19 @@ ul {
 
 /** --------TEAM-------- */
 
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -226,7 +263,7 @@ ul {
 }
 
 .footer-logo span {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
