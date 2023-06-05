@@ -40,6 +40,10 @@ ul {
 
 /** --------------HEADER---------- */
 
+.header-menu {
+  list-style: none;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -51,7 +55,7 @@ ul {
   color: #4d5ae5;
 }
 
-.header-menu-link {
+.header-menu-item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -59,6 +63,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-menu-link {
+  text-decoration: none;
 }
 
 .header-menu-link:hover {
@@ -198,19 +206,19 @@ ul {
 
 /** ------------SERVICES----------- */
 
-.portfolio-btn-all {
-  font-family: "Roboto";
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #404bbf;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 
-.portfolio-btn-all:hover {
+.portfolio-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -222,16 +230,6 @@ ul {
 
 .prospects-img link {
   list-style: none;
-}
-
-.portfolio-btn {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
 }
 
 /** ------------PROSPECTS--------- */
@@ -274,7 +272,7 @@ ul {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
