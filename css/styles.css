@@ -67,6 +67,7 @@ ul {
 
 .header-menu-link {
   text-decoration: none;
+  color: #2e2f42;
 }
 
 .header-menu-link:hover {
@@ -223,7 +224,7 @@ ul {
   background-color: #404bbf;
 }
 
-.portfolio-btn-all:focus {
+.portfolio-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
